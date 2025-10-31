@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { type Task } from "../features/tasks/tasksSlice";
 import { useTasksActions } from "../hooks/useTasks";
-import { Link, useNavigate, useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { useAppSelector } from "../redux/hooks/useStore";
 
 function TaskForm() {
